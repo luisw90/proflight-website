@@ -1,0 +1,9 @@
+.home__section1-container {
+  top: 100px;
+}
+
+.simulator__section1-image {
+  height: 300px;
+  width: 100vw;
+  object-fit: cover;
+}

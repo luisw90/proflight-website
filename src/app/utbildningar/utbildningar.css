@@ -9,6 +9,17 @@
   align-items: center;
 }
 
+.tjanster__article-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  top: 450px;
+  gap: 40px;
+
+  padding-inline: 200px;
+  align-items: center;
+}
+
 .utbildningar__article {
   background-color: white;
   padding-inline: 50px;
@@ -25,6 +36,17 @@
   justify-content: center;
   align-items: center;
   height: 70px;
+}
+
+.tjanster__article-image {
+  display: flex;
+  justify-content: center;
+  aspect-ratio: 1/0.6;
+  object-fit: cover;
+  width: 100%;
+
+  border: none;
+  outline: 0.2px solid rgb(184, 184, 184);
 }
 
 .utbildningar__article-title {
