@@ -28,8 +28,13 @@ body {
   font-family: "akzidenz-bold";
   src: url("../../public/Akzidenz-grotesk-bold.ttf") format("woff2");
 }
-
-.header__container {
+.header__top-container {
+  position: fixed;
+  height: 30px;
+  background-color: white;
+  z-index: 99;
+}
+.header__bottom-container {
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -231,7 +236,7 @@ body {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
-.footer__container {
+.home__section4-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -243,13 +248,13 @@ body {
   padding-block: 50px;
 }
 
-.footer__cardcontainer {
+.home__section4-cardcontainer {
   display: flex;
   justify-content: center;
   gap: 50px;
 }
 
-.footer__card {
+.home__section4-card {
   display: flex;
   justify-content: left;
   gap: 20px;
@@ -260,19 +265,19 @@ body {
   padding-block: 20px;
 }
 
-.footer__image {
+.home__section4-image {
   height: 100%;
   aspect-ratio: 1/0.95;
   object-fit: cover;
 }
 
-.footer__infocontainer {
+.home__section4-infocontainer {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.footer__maininfocontainer {
+.home__section4-maininfocontainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -283,25 +288,25 @@ body {
   gap: 10px;
 }
 
-.footer__main-title {
+.home__section4-main-title {
   font-family: "akzidenz";
   font-size: 1.5em;
   opacity: 0.5;
   border-bottom: 1px solid rgb(183, 183, 183);
 }
 
-.footer__title {
+.home__section4-title {
   font-size: 1.3em;
   opacity: 0.8;
   border-bottom: 1px solid rgb(183, 183, 183);
 }
 
-.footer__subtitle {
+.home__section4-subtitle {
   font-size: 1em;
   opacity: 0.7;
   overflow: hidden;
 }
-.footer__button {
+.home__section4-button {
   border-radius: 8px;
   border-width: 1px;
   padding-inline: 10px;
@@ -311,7 +316,7 @@ body {
   width: 200px;
 }
 
-.footer__button {
+.home__section4-button {
   border-radius: 8px;
   border-width: 1px;
   padding-inline: 10px;
@@ -321,9 +326,22 @@ body {
   width: 200px;
 }
 
-.footer__button:hover {
+.home__section4-button:hover {
   background-color: rgb(142, 142, 142);
   color: white;
   width: 200px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer__container {
+  height: 40px;
+  background-color: rgb(142, 142, 142);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__title {
+  font-size: 0.8em;
+  color: white;
 }

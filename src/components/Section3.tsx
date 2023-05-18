@@ -1,6 +1,6 @@
 import React from "react";
 
-export const HeaderArticles = () => {
+export const Section3 = () => {
   return (
     <>
       <div>

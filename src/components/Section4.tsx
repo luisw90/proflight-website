@@ -1,20 +1,23 @@
 import React from "react";
 
-export const Footer = () => {
+export const Section4 = () => {
   return (
-    <div className="footer__container">
-      <div className="footer__maininfocontainer">
-        <h1 className="footer__main-title"> Allt börjar med ett presentkort</h1>
+    <div className="home__section4-container">
+      <div className="home__section4-maininfocontainer">
+        <h1 className="home__section4-main-title">
+          {" "}
+          Allt börjar med ett presentkort
+        </h1>
 
-        <button className="footer__button">Gå till webshoppen</button>
+        <button className="home__section4-button">Gå till webshoppen</button>
       </div>
-      <div className="footer__cardcontainer">
-        <div className="footer__card">
-          <img className="footer__image" src="heli2.png" alt="" />
+      <div className="home__section4-cardcontainer">
+        <div className="home__section4-card">
+          <img className="home__section4-image" src="heli2.png" alt="" />
 
-          <div className="footer__infocontainer">
-            <h1 className="footer__title">KÖP PRESENTKORT</h1>
-            <h3 className="footer__subtitle">
+          <div className="home__section4-infocontainer">
+            <h1 className="home__section4-title">KÖP PRESENTKORT</h1>
+            <h3 className="home__section4-subtitle">
               Önskar du ge bort ett Presentkort till någon du tycker om, vill
               överraska eller kanske en gåva till en kund. Presentkortet hos oss
               ger den du ger kortet till möjligheten att själv välja om hen vill
@@ -22,15 +25,15 @@ export const Footer = () => {
               att spaka själv i form av en provlektion. Finns även möjlighet att
               få använda det som ett pass i vår Simulator.
             </h3>
-            <button className="footer__button">Köp presentkort</button>
+            <button className="home__section4-button">Köp presentkort</button>
           </div>
         </div>
-        <div className="footer__card">
-          <img className="footer__image" src="heli5.png" alt="" />
+        <div className="home__section4-card">
+          <img className="home__section4-image" src="heli5.png" alt="" />
 
-          <div className="footer__infocontainer">
-            <h1 className="footer__title">KÖP HELIKOPTER</h1>
-            <h3 className="footer__subtitle">
+          <div className="home__section4-infocontainer">
+            <h1 className="home__section4-title">KÖP HELIKOPTER</h1>
+            <h3 className="home__section4-subtitle">
               Vi har köpt och sålt Helikoptrar inom Proflight i mer än 40år.
               Denna erfarenhet tillsammans med våra goda referenser har gjort
               att vi idag sitter som Generalagentur inte bara på hos 1 utan hos
@@ -43,7 +46,7 @@ export const Footer = () => {
               har även kontakter för att hjälpa er med riktigt
               konkurrenskraftiga finansieringar.
             </h3>
-            <button className="footer__button">Köp presentkort</button>
+            <button className="home__section4-button">Köp presentkort</button>
           </div>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import React from "react";
 
-export const page = () => {
+const Omoss = () => {
   return <div>page</div>;
 };
+
+export default Omoss;

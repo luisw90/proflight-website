@@ -1,5 +1,7 @@
 import React from "react";
 
-export const Omoss = () => {
+const Tjanster = () => {
   return <div>page</div>;
 };
+
+export default Tjanster;

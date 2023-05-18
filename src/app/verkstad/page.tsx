@@ -1,5 +1,7 @@
 import React from "react";
 
-export const page = () => {
+const Verkstad = () => {
   return <div>page</div>;
 };
+
+export default Verkstad;

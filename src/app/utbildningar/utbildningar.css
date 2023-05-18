@@ -1,0 +1,57 @@
+.utbildningar__article-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  top: 450px;
+  gap: 40px;
+
+  padding-inline: 200px;
+  align-items: center;
+}
+
+.utbildningar__article {
+  background-color: white;
+  padding-inline: 50px;
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  outline: 1px solid rgb(204, 204, 204);
+}
+
+.utbildningar__article-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.utbildningar__article-title {
+  font-family: "akzidenz-bold";
+  font-size: 1.2em;
+  opacity: 0.7;
+  border-bottom: 1px solid rgb(183, 183, 183);
+}
+
+.utbildningar__article-subtitle {
+  font-size: 1em;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.utbildningar__article-button {
+  border-radius: 8px;
+  border-width: 1px;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-color: rgb(157, 157, 157);
+  color: rgb(48, 48, 48);
+  width: 100px;
+}
+
+.utbildningar__article-button:hover {
+  background-color: rgb(142, 142, 142);
+  color: white;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
