@@ -1,34 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Showcase website
 
-First, run the development server:
+This is a website, built with React. Its an ongoing project that is built to be easily scalable and easily-updated by utilising reusable components. An admin page will also be included for a client to add and edit all information displayed. TypeScript is used to ensure type-safety.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1792" alt="Screenshot 2023-05-18 at 21 29 27" src="https://github.com/luisw90/proflight-website/assets/116962905/b731bb58-3150-4b49-830e-43a73c8ed532">
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img width="1792" alt="Screenshot 2023-05-18 at 21 29 44" src="https://github.com/luisw90/proflight-website/assets/116962905/c30f7dcf-345c-4aa9-9e23-fc92b6a414cc">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Upcoming
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Will be animated and fully responsive.
+- Admin page
+- General design and laout adjustments.
